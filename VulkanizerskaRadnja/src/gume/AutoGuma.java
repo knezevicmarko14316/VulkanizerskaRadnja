@@ -1,8 +1,8 @@
 package gume;
 /**
  * Klasa predstavlja automobilsku gumu.
- * @author knez
- *
+ * @author Marko Knezevic
+ *@version 1.0
  */
 public class AutoGuma {
 	/**
