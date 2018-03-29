@@ -43,9 +43,16 @@ public class VulkanizerskaRadnja {
 			return null;
 			LinkedList<AutoGuma> novaLista = new LinkedList<AutoGuma>();
 			for(int i=0;i<gume.size();i++)
-			if (gume.get(i).equals(markaModel))
+			if (gume.get(i).getMarkaModel().equals(markaModel))
 			novaLista.add(gume.get(i));
 			return novaLista;
 			}
+	/**
+	 * Vraca listu svih raspolozivih guma
+	 * @return listu guma
+	 */
+	public LinkedList<AutoGuma> vratiListu(){
+		return gume;
+	}
 
 }
